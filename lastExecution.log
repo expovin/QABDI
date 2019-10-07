@@ -1,0 +1,31 @@
+Oct 04 17:00:20 itmil-ves sendEmail[24409]: DEBUG => Connecting to smtp.mail.me.com:587
+Oct 04 17:00:23 itmil-ves sendEmail[24409]: DEBUG => My IP address is: 172.20.10.2
+Oct 04 17:00:32 itmil-ves sendEmail[24409]: SUCCESS => Received: 	220 mr85p00im-zteg06021501.me.com 3.3.1 v.666
+Oct 04 17:00:32 itmil-ves sendEmail[24409]: INFO => Sending: 	EHLO itmil-ves
+Oct 04 17:00:33 itmil-ves sendEmail[24409]: SUCCESS => Received: 	250-mr85p00im-zteg06021501.me.com, 250-PIPELINING, 250-SIZE 28311552, 250-ETRN, 250-STARTTLS, 250-ENHANCEDSTATUSCODES, 250-8BITMIME, 250 DSN
+Oct 04 17:00:33 itmil-ves sendEmail[24409]: INFO => Sending: 	STARTTLS
+Oct 04 17:00:35 itmil-ves sendEmail[24409]: SUCCESS => Received: 	220 2.0.0 Ready to start TLS
+Oct 04 17:00:36 itmil-ves sendEmail[24409]: DEBUG => TLS session initialized :)
+Oct 04 17:00:36 itmil-ves sendEmail[24409]: INFO => Sending: 	EHLO itmil-ves
+Oct 04 17:00:37 itmil-ves sendEmail[24409]: SUCCESS => Received: 	250-mr85p00im-zteg06021501.me.com, 250-PIPELINING, 250-SIZE 28311552, 250-ETRN, 250-AUTH LOGIN PLAIN ATOKEN, 250-ENHANCEDSTATUSCODES, 250-8BITMIME, 250 DSN
+Oct 04 17:00:37 itmil-ves sendEmail[24409]: DEBUG => SMTP-AUTH: Using LOGIN authentication method
+Oct 04 17:00:37 itmil-ves sendEmail[24409]: INFO => Sending: 	AUTH LOGIN
+Oct 04 17:00:37 itmil-ves sendEmail[24409]: SUCCESS => Received: 	334 VXNlcm5hbWU6
+Oct 04 17:00:37 itmil-ves sendEmail[24409]: INFO => Sending: 	ZXhwb3ZpbkBpY2xvdWQuY29t
+Oct 04 17:00:39 itmil-ves sendEmail[24409]: SUCCESS => Received: 	334 UGFzc3dvcmQ6
+Oct 04 17:00:39 itmil-ves sendEmail[24409]: INFO => Sending: 	eHd5eC1xanR1LXZ4eHAtZGhhZA==
+Oct 04 17:00:40 itmil-ves sendEmail[24409]: SUCCESS => Received: 	235 2.7.0 Authentication successful (CKUSER)
+Oct 04 17:00:40 itmil-ves sendEmail[24409]: DEBUG => User authentication was successful (Method: LOGIN)
+Oct 04 17:00:40 itmil-ves sendEmail[24409]: INFO => Sending: 	MAIL FROM:<expovin@me.com>
+Oct 04 17:00:44 itmil-ves sendEmail[24409]: SUCCESS => Received: 	250 2.1.0 Ok
+Oct 04 17:00:44 itmil-ves sendEmail[24409]: INFO => Sending: 	RCPT TO:<ves@qlik.com>
+Oct 04 17:00:53 itmil-ves sendEmail[24409]: SUCCESS => Received: 	250 2.1.5 Ok
+Oct 04 17:00:53 itmil-ves sendEmail[24409]: INFO => Sending: 	RCPT TO:<expovin@gmail.com>
+Oct 04 17:00:54 itmil-ves sendEmail[24409]: SUCCESS => Received: 	250 2.1.5 Ok
+Oct 04 17:00:54 itmil-ves sendEmail[24409]: INFO => Sending: 	DATA
+Oct 04 17:00:58 itmil-ves sendEmail[24409]: SUCCESS => Received: 	354 End data with <CR><LF>.<CR><LF>
+Oct 04 17:00:58 itmil-ves sendEmail[24409]: INFO => Sending message body
+Oct 04 17:00:58 itmil-ves sendEmail[24409]: Setting content-type: text/html
+Oct 04 17:00:58 itmil-ves sendEmail[24409]: DEBUG => Sending the attachment [./lastExecution.log]
+Oct 04 17:01:06 itmil-ves sendEmail[24409]: SUCCESS => Received: 	250 2.0.0 Ok: queued as 81E95380EE8
+Oct 04 17:01:06 itmil-ves sendEmail[24409]: Email was sent successfully!  From: <expovin@me.com> To: <ves@qlik.com> <expovin@gmail.com> Subject: ["QSEoK Cluster has been destroyed"] Attachment(s): [lastExecution.log] Server: [smtp.mail.me.com:587]

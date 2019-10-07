@@ -1,0 +1,635 @@
+Outer window is 0x6200001, inner window is 0x6200002
+
+PropertyNotify event, serial 8, synthetic NO, window 0x6200001,
+    atom 0x27 (WM_NAME), time 99807769, state PropertyNewValue
+
+PropertyNotify event, serial 9, synthetic NO, window 0x6200001,
+    atom 0x22 (WM_COMMAND), time 99807769, state PropertyNewValue
+
+PropertyNotify event, serial 10, synthetic NO, window 0x6200001,
+    atom 0x28 (WM_NORMAL_HINTS), time 99807769, state PropertyNewValue
+
+CreateNotify event, serial 11, synthetic NO, window 0x6200001,
+    parent 0x6200001, window 0x6200002, (10,10), width 50, height 50
+border_width 4, override NO
+
+PropertyNotify event, serial 14, synthetic NO, window 0x6200001,
+    atom 0x141 (WM_PROTOCOLS), time 99807773, state PropertyNewValue
+
+MapNotify event, serial 15, synthetic NO, window 0x6200001,
+    event 0x6200001, window 0x6200002, override NO
+
+ConfigureNotify event, serial 23, synthetic NO, window 0x6200001,
+    event 0x6200001, window 0x6200001, (0,0), width 178, height 178,
+    border_width 0, above 0x228deba, override NO
+
+PropertyNotify event, serial 28, synthetic NO, window 0x6200001,
+    atom 0x1bd (_NET_WM_ALLOWED_ACTIONS), time 99807773, state PropertyNewValue
+
+ReparentNotify event, serial 29, synthetic NO, window 0x6200001,
+    event 0x6200001, window 0x6200001, parent 0x40ffb8,
+    (0,0), override NO
+
+PropertyNotify event, serial 29, synthetic NO, window 0x6200001,
+    atom 0x146 (_NET_FRAME_EXTENTS), time 99807779, state PropertyNewValue
+
+ConfigureNotify event, serial 29, synthetic NO, window 0x6200001,
+    event 0x6200001, window 0x6200001, (10,45), width 178, height 178,
+    border_width 0, above 0x0, override NO
+
+PropertyNotify event, serial 29, synthetic NO, window 0x6200001,
+    atom 0x199 (_GTK_EDGE_CONSTRAINTS), time 99807781, state PropertyNewValue
+
+PropertyNotify event, serial 31, synthetic NO, window 0x6200001,
+    atom 0x149 (_NET_WM_DESKTOP), time 99807783, state PropertyNewValue
+
+PropertyNotify event, serial 32, synthetic NO, window 0x6200001,
+    atom 0x189 (WM_STATE), time 99807785, state PropertyNewValue
+
+PropertyNotify event, serial 32, synthetic NO, window 0x6200001,
+    atom 0x14f (_NET_WM_STATE), time 99807785, state PropertyNewValue
+
+PropertyNotify event, serial 32, synthetic NO, window 0x6200001,
+    atom 0x199 (_GTK_EDGE_CONSTRAINTS), time 99807785, state PropertyNewValue
+
+PropertyNotify event, serial 34, synthetic NO, window 0x6200001,
+    atom 0x199 (_GTK_EDGE_CONSTRAINTS), time 99807786, state PropertyNewValue
+
+ConfigureNotify event, serial 34, synthetic YES, window 0x6200001,
+    event 0x6200001, window 0x6200001, (869,467), width 178, height 178,
+    border_width 2, above 0x0, override NO
+
+PropertyNotify event, serial 34, synthetic NO, window 0x6200001,
+    atom 0x199 (_GTK_EDGE_CONSTRAINTS), time 99807791, state PropertyNewValue
+
+PropertyNotify event, serial 34, synthetic NO, window 0x6200001,
+    atom 0x14f (_NET_WM_STATE), time 99807791, state PropertyNewValue
+
+PropertyNotify event, serial 34, synthetic NO, window 0x6200001,
+    atom 0x199 (_GTK_EDGE_CONSTRAINTS), time 99807791, state PropertyNewValue
+
+MapNotify event, serial 34, synthetic NO, window 0x6200001,
+    event 0x6200001, window 0x6200001, override NO
+
+VisibilityNotify event, serial 34, synthetic NO, window 0x6200001,
+    state VisibilityUnobscured
+
+Expose event, serial 34, synthetic NO, window 0x6200001,
+    (0,0), width 178, height 10, count 3
+
+Expose event, serial 34, synthetic NO, window 0x6200001,
+    (0,10), width 10, height 58, count 2
+
+Expose event, serial 34, synthetic NO, window 0x6200001,
+    (68,10), width 110, height 58, count 1
+
+Expose event, serial 34, synthetic NO, window 0x6200001,
+    (0,68), width 178, height 110, count 0
+
+FocusIn event, serial 34, synthetic NO, window 0x6200001,
+    mode NotifyNormal, detail NotifyNonlinear
+
+KeymapNotify event, serial 34, synthetic NO, window 0x0,
+    keys:  68  0   0   0   16  0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+PropertyNotify event, serial 34, synthetic NO, window 0x6200001,
+    atom 0x14f (_NET_WM_STATE), time 99807813, state PropertyNewValue
+
+PropertyNotify event, serial 34, synthetic NO, window 0x6200001,
+    atom 0x199 (_GTK_EDGE_CONSTRAINTS), time 99807813, state PropertyNewValue
+
+PropertyNotify event, serial 34, synthetic NO, window 0x6200001,
+    atom 0x14f (_NET_WM_STATE), time 99807813, state PropertyNewValue
+
+PropertyNotify event, serial 34, synthetic NO, window 0x6200001,
+    atom 0x199 (_GTK_EDGE_CONSTRAINTS), time 99807813, state PropertyNewValue
+
+KeyRelease event, serial 34, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99807822, (403,324), root:(1274,793),
+    state 0x10, keycode 36 (keysym 0xff0d, Return), same_screen YES,
+    XLookupString gives 1 bytes: (0d) ""
+    XFilterEvent returns: False
+
+EnterNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811534, (158,176), root:(1029,645),
+    mode NotifyNormal, detail NotifyAncestor, same_screen YES,
+    focus YES, state 16
+
+KeymapNotify event, serial 37, synthetic NO, window 0x0,
+    keys:  79  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811534, (158,176), root:(1029,645),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811545, (156,172), root:(1027,641),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811556, (154,169), root:(1025,638),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811567, (151,165), root:(1022,634),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811579, (151,163), root:(1022,632),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811590, (149,161), root:(1020,630),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811601, (147,158), root:(1018,627),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811612, (146,156), root:(1017,625),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811624, (146,155), root:(1017,624),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811646, (145,154), root:(1016,623),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811657, (145,152), root:(1016,621),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811669, (145,150), root:(1016,619),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811680, (145,145), root:(1016,614),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811691, (145,142), root:(1016,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811702, (144,139), root:(1015,608),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811714, (144,138), root:(1015,607),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811849, (143,138), root:(1014,607),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99811871, (143,138), root:(1014,607),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812389, (143,138), root:(1014,607),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812422, (143,139), root:(1014,608),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812434, (144,139), root:(1015,608),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812445, (144,139), root:(1015,608),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812456, (145,139), root:(1016,608),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812467, (145,140), root:(1016,609),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812479, (146,140), root:(1017,609),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812512, (147,141), root:(1018,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812535, (147,141), root:(1018,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812546, (147,142), root:(1018,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99812557, (148,142), root:(1019,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813142, (149,142), root:(1020,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813154, (149,142), root:(1020,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813165, (150,142), root:(1021,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813176, (150,142), root:(1021,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813187, (151,142), root:(1022,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813199, (151,142), root:(1022,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813356, (152,142), root:(1023,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813412, (152,141), root:(1023,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813447, (151,141), root:(1022,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813637, (151,141), root:(1022,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813649, (152,141), root:(1023,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813660, (152,140), root:(1023,609),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813784, (153,140), root:(1024,609),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813817, (152,140), root:(1023,609),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813829, (151,141), root:(1022,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813840, (150,141), root:(1021,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813852, (150,142), root:(1021,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813862, (149,142), root:(1020,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813874, (148,143), root:(1019,612),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813885, (147,143), root:(1018,612),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813896, (145,143), root:(1016,612),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99813907, (144,143), root:(1015,612),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99814459, (143,143), root:(1014,612),
+    state 0x10, is_hint 0, same_screen YES
+
+ButtonPress event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99814684, (143,143), root:(1014,612),
+    state 0x10, button 8, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99814695, (144,143), root:(1015,612),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99814706, (144,143), root:(1015,612),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99814717, (147,142), root:(1018,611),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99814729, (148,141), root:(1019,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99814740, (149,141), root:(1020,610),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99814751, (150,140), root:(1021,609),
+    state 0x10, is_hint 0, same_screen YES
+
+ButtonRelease event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99814864, (150,140), root:(1021,609),
+    state 0x10, button 8, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99815437, (150,139), root:(1021,608),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99815449, (150,139), root:(1021,608),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99815460, (150,138), root:(1021,607),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99815471, (149,138), root:(1020,607),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99815516, (149,137), root:(1020,606),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99815539, (149,137), root:(1020,606),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99815584, (149,137), root:(1020,606),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99815617, (149,136), root:(1020,605),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816000, (150,136), root:(1021,605),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816012, (150,136), root:(1021,605),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816022, (150,136), root:(1021,605),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816034, (151,136), root:(1022,605),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816045, (151,136), root:(1022,605),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816056, (153,136), root:(1024,605),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816067, (154,136), root:(1025,605),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816292, (153,135), root:(1024,604),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816304, (152,135), root:(1023,604),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816315, (151,134), root:(1022,603),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816326, (150,134), root:(1021,603),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816337, (149,133), root:(1020,602),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816382, (149,132), root:(1020,601),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816394, (149,132), root:(1020,601),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816405, (149,131), root:(1020,600),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816416, (149,130), root:(1020,599),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816427, (148,130), root:(1019,599),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816450, (148,130), root:(1019,599),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816585, (147,130), root:(1018,599),
+    state 0x10, is_hint 0, same_screen YES
+
+ButtonPress event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99816855, (147,130), root:(1018,599),
+    state 0x10, button 9, same_screen YES
+
+ButtonRelease event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817035, (147,130), root:(1018,599),
+    state 0x10, button 9, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817260, (147,129), root:(1018,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817272, (148,129), root:(1019,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817282, (149,129), root:(1020,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817294, (149,128), root:(1020,597),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817305, (150,128), root:(1021,597),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817372, (151,128), root:(1022,597),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817384, (151,128), root:(1022,597),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817406, (152,128), root:(1023,597),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817474, (152,129), root:(1023,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817507, (152,129), root:(1023,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817530, (152,129), root:(1023,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817586, (153,129), root:(1024,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817597, (153,129), root:(1024,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817609, (154,129), root:(1025,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817620, (154,129), root:(1025,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817631, (155,129), root:(1026,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817642, (157,129), root:(1028,598),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817654, (158,130), root:(1029,599),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99817665, (159,130), root:(1030,599),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818059, (160,130), root:(1031,599),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818070, (161,130), root:(1032,599),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818081, (167,130), root:(1038,599),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818092, (174,130), root:(1045,599),
+    state 0x10, is_hint 0, same_screen YES
+
+LeaveNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818115, (184,130), root:(1055,599),
+    mode NotifyNormal, detail NotifyAncestor, same_screen YES,
+    focus YES, state 16
+
+EnterNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818700, (156,3), root:(1027,472),
+    mode NotifyNormal, detail NotifyAncestor, same_screen YES,
+    focus YES, state 16
+
+KeymapNotify event, serial 37, synthetic NO, window 0x0,
+    keys:  42  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818700, (156,3), root:(1027,472),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818701, (148,9), root:(1019,478),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818711, (137,17), root:(1008,486),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818722, (133,20), root:(1004,489),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818745, (130,22), root:(1001,491),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818746, (129,24), root:(1000,493),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818914, (130,22), root:(1001,491),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818925, (131,20), root:(1002,489),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818936, (133,17), root:(1004,486),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818947, (137,12), root:(1008,481),
+    state 0x10, is_hint 0, same_screen YES
+
+MotionNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818970, (142,6), root:(1013,475),
+    state 0x10, is_hint 0, same_screen YES
+
+LeaveNotify event, serial 37, synthetic NO, window 0x6200001,
+    root 0x22a, subw 0x0, time 99818971, (147,-1), root:(1018,468),
+    mode NotifyNormal, detail NotifyAncestor, same_screen YES,
+    focus YES, state 16
+
+ClientMessage event, serial 37, synthetic YES, window 0x6200001,
+    message_type 0x141 (WM_PROTOCOLS), format 32, message 0x13f (WM_DELETE_WINDOW)

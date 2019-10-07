@@ -1,0 +1,177 @@
+Load commonly used functions
+Gathering environment variables
+Using deduced IP address 10.244.1.29
+BDI_LOCAL_IP=10.244.1.29
+BDI_ROOT_FOLDER=/home/ubuntu/dist
+BDI_FOLD_STRUCTURE=DEPLOYMENT
+BDI_CONFIG_FOLDER=/home/ubuntu/dist/runtime/config
+BDI_CONFIG_TEMPLATE_FOLDER=/home/ubuntu/dist/runtime/config/template
+BDI_BINARY_ROOT_FOLDER=/home/ubuntu/dist
+BDI_INDEXER_TOOL_LOC=/home/ubuntu/dist/indexer/indexer_tool
+BDI_QSL_PROCESSOR_TOOL_LOC=/home/ubuntu/dist/qsl_processor/qsl_processor_tool
+BDI_REST_SERVICE_LOC=/home/ubuntu/dist/rest_service/abdi_rest_service
+[32mSetting default cluster configuration file: /home/ubuntu/dist/runtime/config/cluster.json
+(B[m[19-10-02 10:47:19:058]-[console-error]-[434] Failed to parse input for logging setting: Fatal error: failed to parse input file: * Line 1, Column 1
+  Syntax error: value, object or array expected.
+ Ref:159
+[19-10-02 10:47:19:132]-[console-info]-[434] /home/output/nycsmall_output/config/indexer/indexing_logging.json created
+[19-10-02 10:47:19:247]-[console-info]-[434] /home/output/nycsmall_output/config/qsl_processor/qsl_config.json created
+[19-10-02 10:47:19:316]-[console-info]-[434] /home/output/nycsmall_output/config/indexer/registry_service.json created
+[19-10-02 10:47:19:388]-[console-info]-[434] /home/output/nycsmall_output/config/indexer/persistence_manager_service.json created
+[19-10-02 10:47:19:456]-[console-info]-[434] /home/output/nycsmall_output/config/indexer/indexing_manager_service.json created
+[19-10-02 10:47:19:512]-[console-info]-[434] /home/output/nycsmall_output/config/indexer/index_maintenance_service.json created
+[19-10-02 10:47:19:580]-[console-info]-[434] /home/output/nycsmall_output/config/indexer/symbol_service_qadbi-bdi-symbolserver-0.qadbi-bdi-symbolserver_55030.json created
+[19-10-02 10:47:19:643]-[console-info]-[434] /home/output/nycsmall_output/config/indexer/indexer_service_qadbi-bdi-indexer-0.qadbi-bdi-indexer_55040.json created
+[19-10-02 10:47:19:699]-[console-info]-[434] /home/output/nycsmall_output/config/qsl_processor/qsl_registry_config.json created
+[19-10-02 10:47:19:753]-[console-info]-[434] /home/output/nycsmall_output/config/qsl_processor/qsl_manager_config.json created
+[19-10-02 10:47:19:809]-[console-info]-[434] /home/output/nycsmall_output/config/qsl_processor/qsl_worker_config.json created
+[19-10-02 10:47:19:866]-[console-info]-[434] Environment variables commands are written to file: /home/output/nycsmall_output/config/env.sh
+set environment variables from /home/output/nycsmall_output/config/env.sh
+************************** Existing indexing processes are killed **************************
+Main node ip:  qadbi-bdi-indexingmanager
+License server ip:  qadbi-bdi-license
+************************** Start Registry Service **************************
+{"registry":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55057,"threads_per_cq":1}}
+{"registry":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55057,"threads_per_cq":1}}
+[19-10-02T10:47:22:373]-[reg_serv-info]-[471] 
+
+**************************************************************************************
+****************************************-=-=-=****************************************
+New logging session started
+Binary:      <unknown>
+Time:        2019-10-02T10:47:22
+Console:     Yes
+File:        /home/output/nycsmall_output/logs/reg_serv_qadbi-bdi-indexingmanager_55057.qlog
+Debug:       0 ""
+Trace:       0 ""
+File Size:   5242880 Bytes
+File Count:  1
+Prefix:      reg_serv
+Log Pattern: [%C-%m-%dT%H:%M:%S:%e]-[%^%n-%l%$]-[%t] %v
+**************************************************************************************
+**************************************************************************************
+
+[19-10-02T10:47:22:402]-[reg_serv-info]-[471] RegistryServiceServer listens on qadbi-bdi-indexingmanager:55057
+************************** Start Persistence Manager Service **************************
+
+{"license_config":{"address":"qadbi-bdi-license","async_server_threads":1,"port":9200,"threads_per_cq":1},"registry":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55057,"threads_per_cq":1},"server_config":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"persistence_target":"database","port":55010,"threads_per_cq":1},"service_outputs":{"backup_paths":[],"name":"service_outputs","paths":[{"key":"","path":"/home/output/nycsmall_output","type":"SymbolOutput"},{"key":"","path":"/home/output/nycsmall_output","type":"IndexOutput"},{"key":"","path":"/home/output/nycsmall_output","type":"SymbolPositions"}],"root_folder":"/home/output/nycsmall_output"}}
+[19-10-02 10:47:23:270]-[console-info]-[484] Waiting for 1 persistencemanager service(s)
+[19-10-02 10:47:23:278]-[console-info]-[484] RegistryServiceClient connects to qadbi-bdi-indexingmanager:55057
+[19-10-02 10:47:23:280]-[console-info]-[484] Found 0 persistencemanager service(s)
+[19-10-02 10:47:23:465]-[console-info]-[516] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:23:505]-[pers_mgr_srv-info]-[516] 
+
+**************************************************************************************
+****************************************-=-=-=****************************************
+New logging session started
+Binary:      <unknown>
+Time:        2019-10-02T10:47:23
+Console:     Yes
+File:        /home/output/nycsmall_output/logs/pers_mgr_srv_qadbi-bdi-indexingmanager_55010.qlog
+Debug:       0 ""
+Trace:       0 ""
+File Size:   5242880 Bytes
+File Count:  1
+Prefix:      pers_mgr_srv
+Log Pattern: [%C-%m-%dT%H:%M:%S:%e]-[%^%n-%l%$]-[%t] %v
+**************************************************************************************
+**************************************************************************************
+
+[19-10-02T10:47:23:514]-[pers_mgr_srv-info]-[516] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:23:534]-[pers_mgr_srv-info]-[516] Successfully got ABDI license.
+[19-10-02T10:47:23:599]-[pers_mgr_srv-info]-[516] Persistence Manager is running on model version 3: 'Db Persistence Version: Merge Association into virtual Table'
+[19-10-02T10:47:23:818]-[pers_mgr_srv-info]-[516] PersistenceManagerServiceServer listens on qadbi-bdi-indexingmanager:55010
+[19-10-02T10:47:23:853]-[pers_mgr_srv-info]-[516] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:23:860]-[reg_serv-info]-[477] Registered PersistenceManager service at qadbi-bdi-indexingmanager:55010 - id: PersistenceManager_0
+[19-10-02T10:47:23:861]-[pers_mgr_srv-info]-[516] Registered PersistenceManager service at qadbi-bdi-indexingmanager:55010 - id: PersistenceManager_0
+[19-10-02 10:47:25:281]-[console-info]-[484] Found 1 persistencemanager service(s)
+[19-10-02 10:47:25:282]-[console-info]-[484] WaitingForServices finished.
+************************** Start Indexing Manager Service **************************
+
+{"registry":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55057,"threads_per_cq":1},"server_config":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55020,"threads_per_cq":1}}
+[19-10-02 10:47:25:372]-[console-info]-[584] Waiting for 1 indexingmanager service(s)
+[19-10-02 10:47:25:379]-[console-info]-[584] RegistryServiceClient connects to qadbi-bdi-indexingmanager:55057
+[19-10-02 10:47:25:379]-[console-info]-[584] Found 0 indexingmanager service(s)
+[19-10-02 10:47:25:599]-[console-info]-[613] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:25:637]-[idx_mgr_srv-info]-[613] 
+
+**************************************************************************************
+****************************************-=-=-=****************************************
+New logging session started
+Binary:      <unknown>
+Time:        2019-10-02T10:47:25
+Console:     Yes
+File:        /home/output/nycsmall_output/logs/idx_mgr_srv_qadbi-bdi-indexingmanager_55020.qlog
+Debug:       0 ""
+Trace:       0 ""
+File Size:   5242880 Bytes
+File Count:  1
+Prefix:      idx_mgr_srv
+Log Pattern: [%C-%m-%dT%H:%M:%S:%e]-[%^%n-%l%$]-[%t] %v
+**************************************************************************************
+**************************************************************************************
+
+[19-10-02T10:47:25:660]-[idx_mgr_srv-info]-[613] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:25:666]-[idx_mgr_srv-info]-[613] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:25:675]-[idx_mgr_srv-info]-[613] PersistenceManagerServiceClient connects to localhost:55010
+[19-10-02T10:47:25:676]-[idx_mgr_srv-info]-[613] PersistenceManagerServiceClient connects to localhost:55010
+[19-10-02T10:47:25:875]-[idx_mgr_srv-info]-[613] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:25:875]-[idx_mgr_srv-info]-[613] Start loading indexing states from Persistence Manager
+[19-10-02T10:47:25:877]-[idx_mgr_srv-info]-[613] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:25:880]-[idx_mgr_srv-info]-[613] PersistenceManagerServiceClient connects to localhost:55010
+[19-10-02T10:47:25:881]-[idx_mgr_srv-info]-[613] PersistenceManagerServiceClient connects to localhost:55010
+[19-10-02T10:47:25:916]-[idx_mgr_srv-info]-[613] Schemas loaded.
+[19-10-02T10:47:25:951]-[idx_mgr_srv-info]-[613] Indexlet creation tasks fetched.
+[19-10-02T10:47:25:951]-[idx_mgr_srv-info]-[613] Indexlet creation tasks loaded.
+[19-10-02T10:47:26:007]-[idx_mgr_srv-info]-[613] Symbol table creation tasks fetched.
+[19-10-02T10:47:26:007]-[idx_mgr_srv-info]-[613] Symbol table creation tasks loaded.
+[19-10-02T10:47:26:039]-[idx_mgr_srv-info]-[613] A2A tasks fetched.
+[19-10-02T10:47:26:039]-[idx_mgr_srv-info]-[613] A2A tasks loaded.
+[19-10-02T10:47:26:039]-[idx_mgr_srv-info]-[613] Finish loading indexing states from Persistence Manager
+[19-10-02T10:47:26:041]-[idx_mgr_srv-info]-[613] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:26:041]-[reg_serv-info]-[477] Registered IndexingManager service at qadbi-bdi-indexingmanager:55020 - id: IndexingManager_0
+[19-10-02T10:47:26:042]-[idx_mgr_srv-info]-[613] Registered IndexingManager service at qadbi-bdi-indexingmanager:55020 - id: IndexingManager_0
+[19-10-02 10:47:27:380]-[console-info]-[584] Found 1 indexingmanager service(s)
+[19-10-02 10:47:27:381]-[console-info]-[584] WaitingForServices finished.
+************************** Start Index Maintenance Service **************************
+{"registry":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55057,"threads_per_cq":1},"server_config":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55050,"threads_per_cq":1}}
+{"registry":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55057,"threads_per_cq":1},"server_config":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55050,"threads_per_cq":1}}
+[19-10-02 10:47:27:684]-[console-info]-[676] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:27:717]-[idx_maintenance_srv-info]-[676] 
+
+**************************************************************************************
+****************************************-=-=-=****************************************
+New logging session started
+Binary:      <unknown>
+Time:        2019-10-02T10:47:27
+Console:     Yes
+File:        /home/output/nycsmall_output/logs/idx_maintenance_srv_qadbi-bdi-indexingmanager_55050.qlog
+Debug:       0 ""
+Trace:       0 ""
+File Size:   5242880 Bytes
+File Count:  1
+Prefix:      idx_maintenance_srv
+Log Pattern: [%C-%m-%dT%H:%M:%S:%e]-[%^%n-%l%$]-[%t] %v
+**************************************************************************************
+**************************************************************************************
+
+[19-10-02T10:47:27:724]-[idx_maintenance_srv-info]-[676] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:27:732]-[idx_maintenance_srv-info]-[676] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:27:741]-[idx_maintenance_srv-info]-[676] PersistenceManagerServiceClient connects to localhost:55010
+[19-10-02T10:47:27:748]-[idx_maintenance_srv-info]-[676] PersistenceManagerServiceClient connects to localhost:55010
+[19-10-02T10:47:27:844]-[idx_maintenance_srv-info]-[676] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:27:852]-[idx_maintenance_srv-info]-[676] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:27:863]-[idx_maintenance_srv-info]-[676] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:27:871]-[idx_maintenance_srv-info]-[676] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:27:878]-[idx_maintenance_srv-info]-[676] PersistenceManagerServiceClient connects to localhost:55010
+[19-10-02T10:47:27:909]-[idx_maintenance_srv-info]-[676] IndexMaintenanceServiceServer listens on qadbi-bdi-indexingmanager:55050
+[19-10-02T10:47:27:916]-[idx_maintenance_srv-info]-[676] RegistryServiceClient connects to localhost:55057
+[19-10-02T10:47:27:921]-[reg_serv-info]-[477] Registered IndexMaintenance service at qadbi-bdi-indexingmanager:55050 - id: IndexMaintenance_0
+[19-10-02T10:47:27:921]-[idx_maintenance_srv-info]-[676] Registered IndexMaintenance service at qadbi-bdi-indexingmanager:55050 - id: IndexMaintenance_0
+Number of Symbol service nodes: 1
+Starting Symbol Service on 0 : qadbi-bdi-symbolserver-0.qadbi-bdi-symbolserver:55030
+{"registry":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55057,"threads_per_cq":1},"server_config":{"address":"qadbi-bdi-symbolserver-0.qadbi-bdi-symbolserver","async_server_threads":1,"enable_prefix_search":true,"options_file":"","port":55030,"symbol_creation_process_files_in_parallel":false,"symbol_creation_use_connector":false,"threads_per_cq":1}}
+Number of Indexer service nodes: 1
+Starting Indexer Service on 0 : qadbi-bdi-indexer-0.qadbi-bdi-indexer:55040
+{"registry":{"address":"qadbi-bdi-indexingmanager","async_server_threads":1,"port":55057,"threads_per_cq":1},"server_config":{"address":"qadbi-bdi-indexer-0.qadbi-bdi-indexer","async_server_threads":1,"indexer_use_connector":false,"num_of_create_column_index_threads":1,"port":55040,"threads_per_cq":1}}
+Done

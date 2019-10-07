@@ -1,0 +1,1 @@
+nginx-5c7588df-k5wks   1/1     Running   0          9s

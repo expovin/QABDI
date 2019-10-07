@@ -1,0 +1,97 @@
+{
+	"data_set_name" : "nycsmall",
+	"full_flow" : 0,
+	"tables" : 
+	[
+		{
+			"name" : "fares",
+			"paths" : 
+			[
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_1.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_10.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_14.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_18.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_23.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_27.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_32.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_36.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_41.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_45.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_5.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_50.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_54.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_58.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_63.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_72.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_76.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_0_9.parquet"
+				},
+				{
+					"path" : "/home/data/nycsmall_source/fares.table/fares.parquet/1_1_4.parquet"
+				}
+			]
+		},
+		{
+			"name" : "paymenttype",
+			"paths" : 
+			[
+				{
+					"path" : "/home/data/nycsmall_source/paymenttype.table/paymenttype.parquet/0_0_0.parquet"
+				}
+			]
+		},
+		{
+			"name" : "ratecode",
+			"paths" : 
+			[
+				{
+					"path" : "/home/data/nycsmall_source/ratecode.table/ratecode.parquet/0_0_0.parquet"
+				}
+			]
+		},
+		{
+			"name" : "vendor",
+			"paths" : 
+			[
+				{
+					"path" : "/home/data/nycsmall_source/vendor.table/vendor.parquet/0_0_0.parquet"
+				}
+			]
+		}
+	]
+}
