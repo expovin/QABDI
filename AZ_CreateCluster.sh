@@ -202,7 +202,7 @@ fi
 
 
 ## Deploy ########
-#./AZ_Deploy.sh
+./AZ_Deploy.sh
 
 #################################################################
 # Console di amministrazione
